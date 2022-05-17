@@ -18,7 +18,7 @@ const getWeather = async (address) => {
     weatherReport.textContent = description;
     locationData.textContent = location;
   } catch (error) {
-    weatherReport.textContent = "weather report unavilable";
+    weatherReport.textContent = "weather report unavailable";
   }
 };
 
