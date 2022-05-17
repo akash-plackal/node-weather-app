@@ -9,7 +9,7 @@ const getWeather = async (address) => {
   locationData.textContent = "";
 
   try {
-    const url = `http://localhost:3000/weather?address=${address}`;
+    const url = `/weather?address=${address}`;
     const res = await fetch(url);
     const report = await res.json();
 
